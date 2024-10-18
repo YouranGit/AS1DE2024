@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict California Housing Price</title>
+</head>
+<body>
+    <h1>Enter Features to Predict Housing Price</h1>
+    <form action="/checkprice" method="post">
+        <label for="feature_1">Median Income:</label>
+        <input type="text" name="feature_1" required><br>
+
+        <label for="feature_2">Median Age:</label>
+        <input type="text" name="feature_2" required><br>
+
+        <label for="feature_3">Total Rooms:</label>
+        <input type="text" name="feature_3" required><br>
+
+        <label for="feature_4">Total Bedrooms:</label>
+        <input type="text" name="feature_4" required><br>
+
+        <label for="feature_5">Population:</label>
+        <input type="text" name="feature_5" required><br>
+
+        <label for="feature_6">Households:</label>
+        <input type="text" name="feature_6" required><br>
+
+        <label for="feature_7">Latitude:</label>
+        <input type="text" name="feature_7" required><br>
+
+        <label for="feature_8">Longitude:</label>
+        <input type="text" name="feature_8" required><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
